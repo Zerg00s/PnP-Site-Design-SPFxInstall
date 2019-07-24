@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/07/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.6.1902.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Tenant>
+    <pnp:SiteDesigns>
+      <pnp:SiteDesign Title="SPFx install Design" Description="Test design" WebTemplate="CommunicationSite" PreviewImageAltText="SPFx install Design">
+        <pnp:SiteScripts>
+          <pnp:SiteScriptRef ID="{SiteScriptID:SPFx Install Script}" />
+        </pnp:SiteScripts>
+      </pnp:SiteDesign>
+    </pnp:SiteDesigns>
+    <pnp:SiteScripts>
+      <pnp:SiteScript Title="SPFx Install Script" Description="SPFx Install Test design" JsonFilePath="siteScript.json" />
+    </pnp:SiteScripts>
+  </pnp:Tenant>
+  <pnp:Templates ID="CONTAINER-TEMPLATE-A1920ECC06974C97BADCBF09B1260DE6">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-A1920ECC06974C97BADCBF09B1260DE6" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite" />
+  </pnp:Templates>
+</pnp:Provisioning>
