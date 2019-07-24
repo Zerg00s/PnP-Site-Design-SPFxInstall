@@ -3,7 +3,7 @@
     "actions": [
         {
             "verb": "installSolution",
-            "id": "{AppPackageId:SPFxApp}"
+            "id": "{AppPackageId:SPFxInstall}"
         }
     ],
     "version": 1
