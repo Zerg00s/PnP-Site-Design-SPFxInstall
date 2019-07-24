@@ -1,1 +1,0 @@
-"# PnP-Site-Design-SPFxInstall" 
